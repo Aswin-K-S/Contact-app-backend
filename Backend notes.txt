@@ -1,0 +1,30 @@
+                                                EMS BACKEND (NODE(EXPRESS) + MONGODB)
+                                          --------------------------------------------------
+
+                                    1. Create a folder for backend (contact-app-backend) 
+                                    2. create package.json file (npm init -y)      
+                                    3. create a database in mongoDB and a create a collection named as employees
+                                    4. Install express for creating a application in backend
+                                             npm i express
+                                    5. Cors- npm i cors (To connect port)
+                                       The word CORS stands for “Cross-Origin Resource Sharing”. 
+                                       Cross-Origin Resource Sharing is an HTTP-header based mechanism implemented 
+                                       by the browser which allows a server or an API(Application Programming Interface) 
+                                       to indicate any origins (different in terms of protocol, hostname, or port) other 
+                                       than its origin from which the unknown origin gets permission to access and load resources.
+                                       Import express and cors in index.js
+                                       
+                                    6. Create index.js file  
+                                    7. npm i -g nodemon (to show continues updation on terminal)
+
+                                                node + mongoDB Connection
+                                          -------------------------------------
+
+                                    8.  create a services folder, inside it create a db.js file     
+                                    9. mongoose (library) - it is used to connect node and mongoDB
+                                       npm i mongoose
+                                    10. create a model and schema for the collection
+                                    11. create a file for implementing the logics - (logics.js)  inside the services folder 
+                                    12. create routes
+                                        inside the index.js file define the routes
+                                        getAllEmployees - localhost://8000/get-all-employees 
